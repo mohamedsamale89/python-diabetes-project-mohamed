@@ -12,27 +12,20 @@ The group selected to used Google Colaboratory as the Python software to conduct
 
 #dataset
 
-The Dataset used in this study is the Pima Indians diabetes dataset. The objective of the dataset is to predict if women develop diabetes based on a variety of body measurements. The dataset was collected in the1980s and contains information about the Pima Indian population living in the city of Phoenix in the United States. In the dataset provided, there are 8 features in total. These include ;
+The Dataset used in this study is the Pima Indians diabetes dataset. The objective of the dataset is to predict if women develop diabetes based on a variety of body measurements. The dataset was collected in the1980s and contains information about the Pima Indian population living in the city of Phoenix in the United States. In the dataset provided, there are 8 features in total. Pregnancies, plasma glucose concentration, Blood Pressure, Skin Thickness: Insulin, MI, Diabetes Pedigree Function: Age and the Outcome: Class variable :diabetes. The dataset can be found at https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
 
-Bmi,- body mass index(weight in kg)
-age - age of women in years
-skin thickness- skin fold thickness
- blood pressure-diastolic blood pressure
-Pregnancy-Number of times women have been pregnant
- insulin levels- serum insulin levels
- glucose levels-
- pedigree function- a chart related in inheritance of diabetes
+#findings
+In our study we used 4 machine learning algorithms which were logistic regression, knn, Support vector machine, and a decision tree. Based on the performance measurements on the testing dataset, we concluded that the best performing model was the logistic regression model which had an accuracy of %77.92. The second-best performing model was the support vector machine which had an accuracy of %74.89. The knn model had an accuracy of %74.68and the decision tree model had an accuracy of %63.59.  The confusion matrix displayed for the optimal logistic regression model indicated that the model predicted 132 true negatives and 48 true positives correctly. It also predicted 14 false positives and 37 false negatives. Overall, the confusion matrix indicates that the model performed well. The confusion matrix displayed for the support vector machine predicted 123 true negatives and 50 true positives correctly. It also predicted 28 false positives and 30 false negatives. The decision tree confusion matrix displayed a prediction of 36 true negatives and 11 true positives correctly. It also predicted 44 false positives and 40 false negatives. The optimal knn model correctly predicted 133 true negatives and 42 true positives. It also predicted 17 false positives and 39 false negatives. Based on the accuracy of the models along with the confusion matrix and the performance measurements displayed above, we can conclude that the optimal model with the best overall performance was the logistic regression model. This result contracts some of the result already published used similar algorithms. 
 
 
-The outcome being examined is diabetes which fall under the class column in the dataset. The dataset has a total of 768instances. The dataset can be found on https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
 
-#Data preprocessing 
 
-In this study we thoroughly examined the Pima diabetes dataset. To fill any missing values, we filled in the missing data using the following code; df=fillna(method= ‘ffill’). We also standardized the data used the standard scaler function. By using the standard scalar function, the dataset is scaled resulting in a standard deviation of 1 and mean of zero. In the Pima Indians datasets, features are scaled differently which may negatively impact the accuracy of the model. To avoid this, we standardized the data which would improve the overall performance of the algorithms 
 
-#Feature selection 
 
-In our study, we concluded that all features in the dataset were relevant to the study. The features, which all are medical predictor variables, all play an important role when the outcome of diabetes is considered. Therefore, no features were excluded from the training and testing dataset. 
+
+
+
+
 
 
 
