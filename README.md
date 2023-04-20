@@ -1,4 +1,4 @@
-# python-diabetes-project-mohamed
+#  Machine learning project mohamed s 
  Analyzing and compare the effectiveness of four machine learning algorithms in predicting the onset of diabetes using the Pima Indians diabetes dataset.
 
 # Introduction
