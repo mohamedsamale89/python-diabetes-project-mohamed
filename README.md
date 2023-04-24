@@ -1,5 +1,5 @@
 #  Machine learning project mohamed s 
- Analyzing and compare the effectiveness of four machine learning algorithms in predicting the onset of diabetes using the Pima Indians diabetes dataset.
+ Analyzing and comparing the effectiveness of four machine learning algorithms in predicting the onset of diabetes using the Pima Indians diabetes dataset.
 
 # Introduction
 Diabetes has emerged as a rapidly growing chronic disease, and its incidence has surged to alarming levels in recent years.. This is due to numerous factors including nutritional habits, lifestyle choices, and genetics. There are 2 types of diabetes which are insulin-dependent diabetes mellitus(type 1 diabetes) and non-insulin-dependent diabetes mellitus(type 2 diabetes) with type 2 diabetes being the most common This has propelled it to become a major global cause of mortality. The sharp increase in this chronic disease has led the need for an effect prognosis tool to diagnose diabetes at an early stage potentially reducing complications and costs. Machine learning effectively be that prognosis tool needed.
