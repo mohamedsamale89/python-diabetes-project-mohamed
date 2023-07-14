@@ -4,7 +4,7 @@
 # Introduction
 Diabetes has emerged as a rapidly growing chronic disease, and its incidence has surged to alarming levels in recent years. This is due to numerous factors including nutritional habits, lifestyle choices, and genetics. Type 2 diabetes has become a major global cause of mortality. The sharp increase in this chronic disease has led the need for an effect prognosis tool to diagnose diabetes at an early stage potentially reducing complications and costs. Machine learning can be that efective prognosis tool needed.
 The Pima Indians Diabetes Dataset originates from the National Institute of Diabetes Digestive and Kidney Diseases. It aims to diagnose whether a patient has diabetes based on diagnostic measures. The dataset is made up of several independent medical predictor variables and one dependent target variable, Outcome. Independent variables comprise the BMI, count of pregnancies the patient has, their level of insulin, age, etc.
-We have applied various machine learning algorithms including logsistic,KNN,SVM, and decision trees to predict the outcome of diabetes. Overall, this study will examine and determine which machine algorithm have the best preformance scores.
+We have applied various machine learning algorithms including logsistic,KNN,SVM, and decision trees to predict the outcome of diabetes. Overall, this study will examine and determine which machine algorithm has the best preformance scores.
 
 # Software
 
